@@ -90,7 +90,7 @@ $(document).ready(function() {
             '</span>'
         );
 
-        // DRY this out...
+        
         if (uvi < 3) {
           $('#uvi-badge').css('background-color', 'green');
         } else if (uvi < 6) {
@@ -155,7 +155,7 @@ $(document).ready(function() {
       });
     });
   }
-
+// get current location 
   function getCurrentLocation() {
     function success(position) {
       const currentLat = position.coords.latitude;
